@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com.css2?family=Inter&display=swap');
+
+@media screen and (max-width:428px){
+
+  .mini-nav, .ride p {
+    font-size:  12px;
+  }
+
+  .ride {
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .ride img {
+    padding: 10px;
+    padding-right:40px;
+    margin:auto;
+  }
+  .details{
+    margin-top:10px;
+    padding-left:5px;
+  }
+  .fil{
+    position: relative;
+    padding:40px;
+  }
+  .name {
+    font-size: 16px;
+  }
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+header {
+  background-color: #101010;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.name {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.profile img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.mini-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  margin: 15px 20px 20px;
+  color: #ffffff;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabs p {
+  margin-right: 30px;
+  cursor: pointer;
+  padding:5px 0;
+}
+.active {
+  font-weight: 700;
+  border-bottom: 2px solid #ffffff;
+}
+.filter{
+  cursor: pointer;
+
+}
+.filter img {
+  color: #101010;
+  margin-right: 10px;
+}
+
+.filterOpt{
+  position: absolute;
+  background-color: #101010;
+  padding:20px;
+  border-radius: 10px;
+  right:10px;
+  top: 70px;
+}
+.fil p {
+  width: 150px;
+  padding: 8px 10px;
+  background-color: #232323;
+  color: #ffffff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.body {
+  position: relative;
+  background-color: #000000cc;
+  padding: 10px 30px;
+}
+
+.ride {
+  background-color: #171717;
+  padding: 30px 35px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.ride img {
+  margin-right: 50px;
+  width: 298px;
+  height: 148px;
+  border-radius: 5px;
+}
+.ride p {
+  color: #ffffff;
+  margin-top: 7px;
+  font-size: 16px;
+}
+
+.det {
+  color: #cfcfcf;
+}
+
