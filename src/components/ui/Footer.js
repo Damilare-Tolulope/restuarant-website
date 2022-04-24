@@ -16,7 +16,7 @@ const Footer = () => {
           <Link to="/about">About Us</Link>
           <Link to="/products">Products</Link>
           <Link to="/contact">Contact Us</Link>
-          <img id="top" src ={backToTop} alt={backToTop} />
+          <img id="top" src={backToTop} alt={backToTop} />
         </div>
         <div className="footer-contact">
           <h2>Contact Us</h2>
