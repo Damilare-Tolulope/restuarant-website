@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
+import About from "./components/about/About";
 import Header from "./components/ui/Header";
 import Footer from "./components/ui/Footer";
 import Contact from "./components/contact/Contact";
@@ -15,6 +16,7 @@ const App = () => {
           <div className="container">
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/products" element={<Products />} />
         </Routes>
