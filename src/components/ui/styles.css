@@ -22,9 +22,9 @@ header ul{
 }
 header ul a{
     padding: 10px 25px;
+    margin-left: 20px;
     text-decoration: none;
     transition: all 0.3s linear;
-    margin-left: 20px;
     color:#000;
     font-weight: 500;
     font-size: 14px;
@@ -97,4 +97,37 @@ footer > img{
     height: 50px;
     margin-top: 50px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    header ul a{
+        padding: 10px 15px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 375px){
+    header{
+        flex-direction: column;
+    }
+    header ul a{
+        padding: 10px;
+        margin-left: 0px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-links{
+        margin: 10px 0;
+    }
+    .footer-links img{
+        display: none;
+    }
+    .footer-contact{
+        text-align: left;
+    }
+    .footer-socials img{
+        height: 20px;
+        margin-right: 20px;
+        margin-left: 0px;
+    }
 }
