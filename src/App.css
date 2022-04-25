@@ -140,3 +140,69 @@
     }
 }
 
+@media screen and (max-width: 375px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero__left {
+        margin-left: 0;
+    }
+    .hero__left p{
+        margin: 10px 0;
+        line-height: 22px;
+        width: 300px;
+        font-size: 14px;
+    }
+    .hero__right img{
+        height: 200px;
+    }
+    .hero__left {
+        margin-left: 0px;
+    }
+    .mid--hero {
+        width: 250px;
+        margin-bottom: 30px;
+    }
+    .mid--hero img{
+        height:100px;
+        width:200px;
+    }
+    .mid-hero{
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .our-meals h2{
+        font-size: 26px;
+    }
+    .our-meal{
+        width: 350px;
+    }    
+    .one-meal{
+        align-items: flex-start;
+        padding: 15px 0;
+    }
+    .one-meal img{
+        border: 5px solid #FF8832;
+        border-radius: 50%;
+        height: 100px;
+    }
+    .meal-details{
+        width: 200px;
+    }
+    .meal-details h3{
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    .meal-details p{
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .meal-details span{
+        font-size: 18px;
+    }
+    .hero button,
+    .meal-details button{
+    width: 170px;
+}
+}
