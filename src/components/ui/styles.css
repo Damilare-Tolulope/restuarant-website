@@ -1,0 +1,100 @@
+
+/* ===========Container=========== */
+.container{
+    padding: 20px 10%;
+}
+
+
+/* ===========HEADER=========== */
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    font-family: Monserrat, sans-serif;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+header ul a{
+    padding: 10px 25px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    margin-left: 20px;
+    color:#000;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius:25px;
+}
+header ul a:hover{
+    color:#fff;
+    background-color: #FF8832;
+    transition: all 0.3s linear;
+}
+
+
+
+
+/* ===========FOOTER=========== */
+footer{
+    background-color: #ff8832;
+    margin-top: 20px;
+    padding: 50px 10%;
+    border-top: 5px solid #000;
+}
+footer > img{
+    color: #fff;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.footer h2{
+    color: #fff;
+}
+.footer-links a{
+    font-weight: 500;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    margin-right: 20px;
+    color: #333;
+}
+.footer-links a:hover{
+    color:#fff;
+}
+.footer-links div{
+    margin: 30px 0;;
+}
+.footer-contact{
+    text-align: right;
+}
+.footer-contact h2{
+    margin-bottom: 15px;
+}
+.footer-contact p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.footer-socials{
+    margin-top: 20px;
+}
+.footer-socials img{
+    height: 30px;
+    cursor:pointer;
+    margin-left: 20px;
+}
+
+#top{
+    height: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
