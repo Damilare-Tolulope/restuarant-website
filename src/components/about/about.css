@@ -1,0 +1,22 @@
+.about-us h2, .history h2{
+    font-size: 36px;
+    margin: 20px 0;
+    padding: 20px;
+    color: #FF8832;
+}
+.about-us p, .history p{
+    margin:50px auto;
+    width: 800px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 768px){
+    .about-us p, .history p{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 375px){
+    .about-us p, .history p{
+        width: 300px;
+    }
+}
