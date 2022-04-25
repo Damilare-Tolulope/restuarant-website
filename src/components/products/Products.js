@@ -5,7 +5,7 @@ import "./products.css";
 const Products = () => {
   return (
     <div className='main'>
-      <p className='our-meals'>Our Meals</p>
+      <p className='our--meals'>Our Meals</p>
 
       <div className='food_cards'>
 
