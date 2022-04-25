@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/restuarant-website/static/css/main.faa16d3e.css",
+    "main.css": "/restuarant-website/static/css/main.0b5185f8.css",
     "main.js": "/restuarant-website/static/js/main.b1a956ab.js",
     "static/js/787.f6cd0092.chunk.js": "/restuarant-website/static/js/787.f6cd0092.chunk.js",
     "static/media/products-plate.svg": "/restuarant-website/static/media/products-plate.ff30e9c2bb6a985da4ba260c516b4ef8.svg",
@@ -15,12 +15,12 @@
     "static/media/backToTop.svg": "/restuarant-website/static/media/backToTop.f863dc993e2802b55e54761ab0dac562.svg",
     "static/media/cutlery.svg": "/restuarant-website/static/media/cutlery.5971df9d0a2f3085c2916b79101d85b0.svg",
     "static/media/facebook.svg": "/restuarant-website/static/media/facebook.c5b1ab2b564934e0a33596b96e0fbc26.svg",
-    "main.faa16d3e.css.map": "/restuarant-website/static/css/main.faa16d3e.css.map",
+    "main.0b5185f8.css.map": "/restuarant-website/static/css/main.0b5185f8.css.map",
     "main.b1a956ab.js.map": "/restuarant-website/static/js/main.b1a956ab.js.map",
     "787.f6cd0092.chunk.js.map": "/restuarant-website/static/js/787.f6cd0092.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faa16d3e.css",
+    "static/css/main.0b5185f8.css",
     "static/js/main.b1a956ab.js"
   ]
 }
