@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: auto;
+}
+
+.our-meals{
+    color: #ff8832;
+  font-family: "Playball", sans-serif;
+  font-size: 50px;
+  padding: 50px 0px 20px 263px;
+  
+  
+}
+.food_cards{
+    display: grid;
+    grid-template-columns: 345px 345px 345px;
+    max-width: 100%;
+    /*grid-template-rows: repeat(15, 400px);*/
+    grid-auto-rows: 400px;
+    gap: 45px 20px;
+    justify-content: center;
+    margin: 5px 78px 0px 80px;
+    padding: 0 0 100px 0;
+}
+.food_card1{
+    align-content: center;
+    padding: 10px 0 10px 70px;
+    background-color: #ff8832;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.food_card{
+    background-color: #ff8832;
+    /*margin-top: 30px;
+    margin-left: 189px;
+    padding: 10px 5px 30px 40px;*/
+    padding: 10px 0px 10px 70px;
+    align-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.price{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0 0 0px 200px;
+    text-align: end;
+}
+.foodImg{
+    margin-top: 5px;
+    width: 205px;
+    height: 205px;
+    padding: 10px 12px 0 12px;
+    align-self: center;
+    background: black;
+    border-radius: 50%;
+}
+.foodImg2{
+    margin-top: 45px;
+    width: 205px;
+    height: 205px;
+    padding: 10px 12px 0 12px;
+    align-self: center;
+    background: black;
+    border-radius: 50%;
+}
+.foodName{
+    padding: 2px 0px 3px 21px;
+    font-family: "Playball", sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 200;
+}
+.regular{
+    font-size: 15px;
+    color: white;
+    width: 80%;
+    font-weight: 100;
+    padding: 2px 10px 0px 5px;
+    text-align: center;
+}
+.cta{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+    border-radius: 50px;
+    border: 2px solid black;
+    background: #ff8832;
+    color: white;
+}
+
+ /* STYLES FOR RESPONSIVENESS*/
+
+.cta:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.food_card1{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.food_card1:hover{
+    top: -10px;
+    cursor: pointer;
+}
+.food_card{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.food_card:hover{
+    top: -10px;
+    cursor: pointer;
+}
