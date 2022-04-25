@@ -87,9 +87,7 @@
 
 
 /* ============OUR MEALS================ */
-.our-meals{
-    
-}
+
 .our-meals h2{
     font-size: 36px;
     margin: 20px 0;
@@ -130,5 +128,15 @@
     font-weight: 600;
     color: #FF8832;
     margin-right: 80px;
+}
+
+@media screen and (max-width: 768px){
+    .hero__left {
+        margin-left: 0px;
+    }
+    .mid--hero img{
+        height:100px;
+        width:200px;
+    }
 }
 
