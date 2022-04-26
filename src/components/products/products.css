@@ -3,27 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-.main{
-    width: auto;
-}
 
 .our--meals{
-    color: #ff8832;
-  font-family: "Playball", sans-serif;
+  color: #ff8832;
   font-size: 50px;
-  padding: 50px 0px 20px 263px;
+  margin: 40px 0 20px 0;
+  padding-left: 30px;
   
   
 }
 .food_cards{
     display: grid;
     grid-template-columns: 345px 345px 345px;
-    max-width: 100%;
     grid-auto-rows: 400px;
     gap: 45px 20px;
     justify-content: center;
-    margin: 5px 78px 0px 80px;
-    padding: 0 0 100px 0;
+    margin: 50px 0;
+    padding-right: 150px;
+    /*padding: 0 0 100px 0;*/
 }
 .food_card1{
     align-content: center;
@@ -38,6 +35,9 @@
     align-content: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
 .price{
     color: white;
@@ -66,7 +66,6 @@
 }
 .foodName{
     padding: 2px 0px 3px 21px;
-    font-family: "Playball", sans-serif;
     color: white;
     font-size: 36px;
     font-weight: 200;
@@ -91,11 +90,12 @@
     color: white;
 }
 
- /* STYLES FOR RESPONSIVENESS*/
+ 
 
 .cta:hover{
     background-color: black;
     cursor: pointer;
+    transition: linear 0.3s;
 }
 .food_card1{
     position: relative;
@@ -106,12 +106,124 @@
     top: -10px;
     cursor: pointer;
 }
-.food_card{
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
-}
 .food_card:hover{
     top: -10px;
     cursor: pointer;
 }
+
+/* 1024 responsiveness*/
+
+@media screen and (max-width: 1024px){
+    .food_cards{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-auto-rows: 400px;
+    gap: 30px 15px;
+    justify-content: center;
+    margin: 50px 0 50px 70px;
+    padding-right: 100px;
+}
+.food_card1{
+    padding: 5px 0px 10px 20px;
+}
+.price{
+    text-align: end;
+    padding: 5px 15px 0 0;
+}
+.food_card{
+    padding: 12px 0px 10px 20px;
+}
+.regular{
+    padding: 0px 1px 1px 1px;
+    margin-left: 17px;
+}
+}
+
+/* 768 responsiveness*/
+
+@media screen and (max-width: 768px){
+    .food_cards{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-auto-rows: 400px;
+    gap: 30px 15px;
+    justify-content: center;
+    margin: 50px 0 50px 70px;
+    padding-right: 100px;
+}
+.food_card1{
+    padding: 5px 0px 10px 20px;
+}
+.price{
+    text-align: end;
+    padding: 5px 15px 0 0;
+}
+.food_card{
+    padding: 12px 0px 10px 20px;
+}
+.regular{
+    padding: 0px 1px 1px 1px;
+    margin-left: 17px;
+}
+}
+
+/* 425 responsiveness*/
+
+@media screen and (max-width: 425px){
+    .food_cards{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-auto-rows: 400px;
+    gap: 30px 15px;
+    justify-content: center;
+    margin: 50px 0 50px 230px;
+}
+.food_card1{
+    padding: 5px 0px 10px 20px;
+}
+.price{
+    text-align: end;
+    padding: 5px 15px 0 0;
+}
+.food_card{
+    padding: 12px 0px 10px 20px;
+}
+.regular{
+    padding: 0px 1px 1px 1px;
+    margin-left: 17px;
+}
+.cta{
+    margin-left: 10px;
+}
+}
+
+/* 375 responsiveness*/
+
+@media screen and (max-width: 425px){
+    .food_cards{
+    display: grid;
+    grid-template-columns: 250px;
+    grid-auto-rows: 400px;
+    gap: 40px ;
+    justify-content: center;
+    margin: 50px 0 50px 100px;
+}
+.food_card1{
+    padding: 5px 0px 10px 20px;
+}
+.price{
+    text-align: end;
+    padding: 5px 15px 0 0;
+}
+.food_card{
+    padding: 12px 0px 10px 20px;
+}
+.regular{
+    padding: 0px 1px 1px 1px;
+    margin-left: 17px;
+}
+.cta{
+    margin-left: 10px;
+}
+}
+
