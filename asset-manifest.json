@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/reactuarant-website/static/css/main.3097c57b.css",
-    "main.js": "/reactuarant-website/static/js/main.8dda3c05.js",
-    "static/js/787.f6cd0092.chunk.js": "/reactuarant-website/static/js/787.f6cd0092.chunk.js",
-    "static/media/products-plate.svg": "/reactuarant-website/static/media/products-plate.ff30e9c2bb6a985da4ba260c516b4ef8.svg",
-    "static/media/plate.svg": "/reactuarant-website/static/media/plate.e57fb8cef86be121d46b3acf0a568f22.svg",
-    "static/media/bigPlate.svg": "/reactuarant-website/static/media/bigPlate.68c0da635049def51ae0fca7d89b4766.svg",
-    "static/media/logo.svg": "/reactuarant-website/static/media/logo.3bc9729f6b44a988ff3279ba3c215be8.svg",
-    "static/media/flower.svg": "/reactuarant-website/static/media/flower.99a0a37651e45f1fa0a71c8a7154374c.svg",
-    "static/media/instagram.svg": "/reactuarant-website/static/media/instagram.8dbf1c492fb2e8f06d0c9b7f1ccf5cf0.svg",
-    "static/media/twitter.svg": "/reactuarant-website/static/media/twitter.57b834a46c30cb6baf32142cf0f2db95.svg",
-    "static/media/contact.svg": "/reactuarant-website/static/media/contact.ba583e2175faf414b412c56b5934666d.svg",
-    "index.html": "/reactuarant-website/index.html",
-    "static/media/backToTop.svg": "/reactuarant-website/static/media/backToTop.f863dc993e2802b55e54761ab0dac562.svg",
-    "static/media/cutlery.svg": "/reactuarant-website/static/media/cutlery.5971df9d0a2f3085c2916b79101d85b0.svg",
-    "static/media/facebook.svg": "/reactuarant-website/static/media/facebook.c5b1ab2b564934e0a33596b96e0fbc26.svg",
-    "main.3097c57b.css.map": "/reactuarant-website/static/css/main.3097c57b.css.map",
-    "main.8dda3c05.js.map": "/reactuarant-website/static/js/main.8dda3c05.js.map",
-    "787.f6cd0092.chunk.js.map": "/reactuarant-website/static/js/787.f6cd0092.chunk.js.map"
+    "main.css": "/static/css/main.3097c57b.css",
+    "main.js": "/static/js/main.d71bf2de.js",
+    "static/js/787.f6cd0092.chunk.js": "/static/js/787.f6cd0092.chunk.js",
+    "static/media/products-plate.svg": "/static/media/products-plate.ff30e9c2bb6a985da4ba260c516b4ef8.svg",
+    "static/media/plate.svg": "/static/media/plate.e57fb8cef86be121d46b3acf0a568f22.svg",
+    "static/media/bigPlate.svg": "/static/media/bigPlate.68c0da635049def51ae0fca7d89b4766.svg",
+    "static/media/logo.svg": "/static/media/logo.3bc9729f6b44a988ff3279ba3c215be8.svg",
+    "static/media/flower.svg": "/static/media/flower.99a0a37651e45f1fa0a71c8a7154374c.svg",
+    "static/media/instagram.svg": "/static/media/instagram.8dbf1c492fb2e8f06d0c9b7f1ccf5cf0.svg",
+    "static/media/twitter.svg": "/static/media/twitter.57b834a46c30cb6baf32142cf0f2db95.svg",
+    "static/media/contact.svg": "/static/media/contact.ba583e2175faf414b412c56b5934666d.svg",
+    "static/media/backToTop.svg": "/static/media/backToTop.f863dc993e2802b55e54761ab0dac562.svg",
+    "index.html": "/index.html",
+    "static/media/cutlery.svg": "/static/media/cutlery.5971df9d0a2f3085c2916b79101d85b0.svg",
+    "static/media/facebook.svg": "/static/media/facebook.c5b1ab2b564934e0a33596b96e0fbc26.svg",
+    "main.3097c57b.css.map": "/static/css/main.3097c57b.css.map",
+    "main.d71bf2de.js.map": "/static/js/main.d71bf2de.js.map",
+    "787.f6cd0092.chunk.js.map": "/static/js/787.f6cd0092.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3097c57b.css",
-    "static/js/main.8dda3c05.js"
+    "static/js/main.d71bf2de.js"
   ]
 }
