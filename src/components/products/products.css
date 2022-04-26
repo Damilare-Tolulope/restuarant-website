@@ -48,18 +48,18 @@
 }
 .foodImg{
     margin-top: 5px;
-    width: 205px;
-    height: 205px;
-    padding: 10px 12px 0 12px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
     align-self: center;
     background: black;
     border-radius: 50%;
 }
 .foodImg2{
     margin-top: 45px;
-    width: 205px;
-    height: 205px;
-    padding: 10px 12px 0 12px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
     align-self: center;
     background: black;
     border-radius: 50%;

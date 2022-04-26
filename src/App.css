@@ -41,6 +41,7 @@
 
 .hero__right img {
     height: 500px;
+    border-radius: 50%;
 }
 
 .hero button,
@@ -125,6 +126,7 @@
     border: 5px solid #FF8832;
     border-radius: 50%;
     height: 200px;
+    width: 200px;
 }
 
 .meal-details {

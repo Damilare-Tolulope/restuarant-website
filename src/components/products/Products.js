@@ -1,5 +1,5 @@
 import React from 'react'
-import food from '../assets/products-plate.svg'
+import food from '../assets/pp4.jpg'
 import "./products.css";
 
 const Products = () => {

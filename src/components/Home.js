@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './assets/logo.svg'
-import bigPlate from './assets/bigPlate.svg'
-import plate from './assets/plate.svg'
+import bigPlate from './assets/pp3.jpg'
+import plate from './assets/pp4.jpg'
 import cutlery from './assets/cutlery.svg'
 import flower from './assets/flower.svg'
 
