@@ -1,250 +1,249 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
 
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #FF8832;
-    border-radius: 10px;
+  background-color: #ff8832;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: orange;
-    border-radius: 10px;
+  background-color: orange;
+  border-radius: 10px;
 }
 
 /* ============HERO================ */
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero__left {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
 .hero__left p {
-    margin: 30px 0;
-    line-height: 32px;
-    width: 400px;
+  margin: 30px 0;
+  line-height: 32px;
+  width: 400px;
 }
 
 .hero__right img {
-    height: 500px;
+  height: 500px;
 }
 
 .hero button,
 .meal-details button {
-    padding: 10px 15px;
-    border: 2px solid #FF8832;
-    color: #000;
-    border-radius: 30px;
-    width: 200px;
-    background-color: transparent;
-    cursor: pointer;
-    transition: all 0.3s linear;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-top: 10px;
+  padding: 10px 15px;
+  border: 2px solid #ff8832;
+  color: #000;
+  border-radius: 30px;
+  width: 200px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
 }
 
 .hero button:hover,
 .meal-details button:hover {
-    color: #fff;
-    background-color: #FF8832;
-    transition: all 0.3s linear;
+  color: #fff;
+  background-color: #ff8832;
+  transition: all 0.3s linear;
 }
 
 .mid-hero {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
 }
 
 .mid--hero {
-    margin: auto;
-    width: 400px;
-    text-align: center;
+  margin: auto;
+  width: 400px;
+  text-align: center;
 }
 
 .mid--hero h3 {
-    font-size: 26px;
-    margin: 10px 0;
+  font-size: 26px;
+  margin: 10px 0;
 }
 
 .mid--hero p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .mid--hero img {
-    height: 200px;
-    width: 400px;
-    background-color: #FF8832;
-    border: none;
-    border-radius: 10px;
-    padding: 30px;
-    cursor: pointer;
+  height: 200px;
+  width: 400px;
+  background-color: #ff8832;
+  border: none;
+  border-radius: 10px;
+  padding: 30px;
+  cursor: pointer;
 }
-
 
 /* ============OUR MEALS================ */
 
 .our-meals h2 {
-    font-size: 36px;
-    margin: 20px 0;
-    padding: 20px;
-    color: #FF8832;
+  font-size: 36px;
+  margin: 20px 0;
+  padding: 20px;
+  color: #ff8832;
 }
 
 .our-meal {
-    width: 600px;
-    margin: auto;
+  width: 600px;
+  margin: auto;
 }
 
 .one-meal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px 0;
-    margin-bottom: 50px;
-    border-bottom: 1px solid #FF8832;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ff8832;
 }
 
 .one-meal img {
-    border: 5px solid #FF8832;
-    border-radius: 50%;
-    height: 200px;
+  border: 5px solid #ff8832;
+  border-radius: 50%;
+  height: 200px;
 }
 
 .meal-details {
-    width: 350px;
+  width: 350px;
 }
 
 .meal-details h3 {
-    font-size: 26px;
-    text-transform: uppercase;
+  font-size: 26px;
+  text-transform: uppercase;
 }
 
 .meal-details p {
-    font-size: 14px;
-    margin: 10px 0;
+  font-size: 14px;
+  margin: 10px 0;
 }
 
 .meal-details span {
-    font-size: 20px;
-    font-weight: 600;
-    color: #FF8832;
-    margin-right: 80px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff8832;
+  margin-right: 80px;
 }
 
 @media screen and (max-width: 768px) {
-    .hero__left {
-        margin-left: 0px;
-    }
+  .hero__left {
+    margin-left: 0px;
+  }
 
-    .mid--hero img {
-        height: 100px;
-        width: 200px;
-    }
+  .mid--hero img {
+    height: 100px;
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .hero {
-        flex-direction: column;
-    }
+  .hero {
+    flex-direction: column;
+  }
 
-    .hero__left {
-        margin-left: 0;
-    }
+  .hero__left {
+    margin-left: 0;
+  }
 
-    .hero__left p {
-        margin: 10px 0;
-        line-height: 22px;
-        width: 300px;
-        font-size: 14px;
-    }
+  .hero__left p {
+    margin: 10px 0;
+    line-height: 22px;
+    width: 300px;
+    font-size: 14px;
+  }
 
-    .hero__right img {
-        height: 200px;
-    }
+  .hero__right img {
+    height: 200px;
+  }
 
-    .hero__left {
-        margin-left: 0px;
-    }
+  .hero__left {
+    margin-left: 0px;
+  }
 
-    .mid--hero {
-        width: 250px;
-        margin-bottom: 30px;
-    }
+  .mid--hero {
+    width: 250px;
+    margin-bottom: 30px;
+  }
 
-    .mid--hero img {
-        height: 100px;
-        width: 200px;
-    }
+  .mid--hero img {
+    height: 100px;
+    width: 200px;
+  }
 
-    .mid-hero {
-        margin-bottom: 20px;
-        flex-direction: column;
-    }
+  .mid-hero {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
 
-    .our-meals h2 {
-        font-size: 26px;
-    }
+  .our-meals h2 {
+    font-size: 26px;
+  }
 
-    .our-meal {
-        width: 300px;
-    }
+  .our-meal {
+    width: 300px;
+  }
 
-    .one-meal {
-        align-items: flex-start;
-        justify-content: space-around;
-        flex-direction: column;
-        text-align: center;
-        padding: 15px 0;
-        width: 200px;
-        margin: auto;
-    }
+  .one-meal {
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 0;
+    width: 200px;
+    margin: auto;
+  }
 
-    .one-meal img {
-        border: 5px solid #FF8832;
-        border-radius: 50%;
-        height: 100px;
-        margin: auto;
-    }
+  .one-meal img {
+    border: 5px solid #ff8832;
+    border-radius: 50%;
+    height: 100px;
+    margin: auto;
+  }
 
-    .meal-details {
-        width: 200px;
-    }
+  .meal-details {
+    width: 200px;
+  }
 
-    .meal-details h3 {
-        margin-top: 10px;
-        font-size: 20px;
-        text-transform: uppercase;
-    }
+  .meal-details h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
 
-    .meal-details p {
-        font-size: 12px;
-        margin: 10px 0;
-    }
+  .meal-details p {
+    font-size: 12px;
+    margin: 10px 0;
+  }
 
-    .meal-details span {
-        font-size: 18px;
-        margin: 0;
-    }
+  .meal-details span {
+    font-size: 18px;
+    margin: 0;
+  }
 
-    .hero button,
-    .meal-details button {
-        width: 170px;
-    }
+  .hero button,
+  .meal-details button {
+    width: 170px;
+  }
 }
